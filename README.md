@@ -1,6 +1,6 @@
 # chillerlan/psr-15-handlers
 
-A template/boilerplate for PHP libraries.
+A set of [PSR-15](https://www.php-fig.org/psr/psr-15/) middleware dispatchers and handlers.
 
 [![PHP Version Support][php-badge]][php]
 [![Packagist version][packagist-badge]][packagist]
@@ -29,6 +29,10 @@ A template/boilerplate for PHP libraries.
 
 ### Features
 
+- [PSR-15](https://www.php-fig.org/psr/psr-15/) handler implementation
+  - `QueueDispatcher`
+  - `PriorityQueueDispatcher`
+  - `RecursiveDispatcher`
 
 ### Requirements
 
