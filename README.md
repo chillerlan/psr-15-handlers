@@ -14,7 +14,7 @@ A template/boilerplate for PHP libraries.
 [php]: https://www.php.net/supported-versions.php
 [packagist-badge]: https://img.shields.io/packagist/v/chillerlan/psr-15-handlers.svg?logo=packagist&logoColor=fff
 [packagist]: https://packagist.org/packages/chillerlan/psr-15-handlers
-[license-badge]: https://img.shields.io/github/license/chillerlan/psr-15-handlers
+[license-badge]: https://img.shields.io/github/license/chillerlan/psr-15-handlers.svg
 [license]: https://github.com/chillerlan/psr-15-handlers/blob/main/LICENSE
 [gh-action-badge]: https://img.shields.io/github/actions/workflow/status/chillerlan/psr-15-handlers/ci.yml?branch=main&logo=github&logoColor=fff
 [gh-action]: https://github.com/chillerlan/psr-15-handlers/actions/workflows/ci.yml?query=branch%3Amain
