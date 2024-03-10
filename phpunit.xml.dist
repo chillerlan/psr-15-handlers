@@ -6,7 +6,7 @@
          colors="true"
 >
 	<testsuites>
-		<testsuite name="chillerlan test suite">
+		<testsuite name="chillerlan/psr-15-handlers test suite">
 			<directory>./tests/</directory>
 		</testsuite>
 	</testsuites>
@@ -21,4 +21,11 @@
 			<xml outputDirectory=".build/coverage/coverage-xml"/>
 		</report>
 	</coverage>
+	<php>
+		<const name="RESPONSE_FACTORY" value="GuzzleHttp\Psr7\HttpFactory"/>
+		<const name="SERVER_REQUEST_FACTORY" value="GuzzleHttp\Psr7\HttpFactory"/>
+		<const name="STREAM_FACTORY" value="GuzzleHttp\Psr7\HttpFactory"/>
+		<const name="UPLOADED_FILE_FACTORY" value="GuzzleHttp\Psr7\HttpFactory"/>
+		<const name="URI_FACTORY" value="GuzzleHttp\Psr7\HttpFactory"/>
+	</php>
 </phpunit>

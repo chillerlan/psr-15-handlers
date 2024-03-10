@@ -1,9 +1,9 @@
 {
-	"name": "chillerlan/php-library-template",
-	"description": "A PHP Library template/boilerplate.",
+	"name": "chillerlan/psr-15-handlers",
+	"description": "A set of PSR-15 middleware dispatchers and handlers.",
 	"license": "MIT",
 	"type": "library",
-	"keywords": ["boilerplate", "library-template"],
+	"keywords": ["psr-15", "dispatcher", "middleware", "handler"],
 	"authors": [
 		{
 			"name": "smiley",
@@ -12,36 +12,49 @@
 		},
 		{
 			"name": "Contributors",
-			"homepage":"https://github.com/chillerlan/php-library-template/graphs/contributors"
+			"homepage":"https://github.com/chillerlan/psr-15-handlers/graphs/contributors"
 		}
 	],
-	"homepage": "https://github.com/chillerlan/php-library-template",
+	"homepage": "https://github.com/chillerlan/psr-15-handlers",
 	"support": {
-		"docs": "https://php-library-template.readthedocs.io",
-		"issues": "https://github.com/chillerlan/php-library-template/issues",
-		"source": "https://github.com/chillerlan/php-library-template"
+		"docs": "https://chillerlan.github.io/psr-15-handlers",
+		"issues": "https://github.com/chillerlan/psr-15-handlers/issues",
+		"source": "https://github.com/chillerlan/psr-15-handlers"
+	},
+	"provide": {
+		"psr/http-server-handler-implementation": "1.0",
+		"psr/http-server-middleware-implementation": "1.0"
 	},
 	"minimum-stability": "stable",
 	"prefer-stable": true,
 	"require": {
-		"php": "^8.1"
+		"php": "^8.1",
+		"psr/http-message": "^1.1 || ^2.0",
+		"psr/http-factory": "^1.0",
+		"psr/http-server-handler": "^1.0",
+		"psr/http-server-middleware": "^1.0"
 	},
 	"require-dev": {
+		"chillerlan/php-http-message-utils": "^2.1",
+		"guzzlehttp/psr7": "^2.6",
 		"phan/phan": "^5.4",
 		"phpunit/phpunit": "^10.5",
 		"phpmd/phpmd": "^2.15",
 		"squizlabs/php_codesniffer": "^3.9"
 	},
 	"suggest": {
+		"chillerlan/php-httpinterface": "A PSR-18 HTTP client implementation",
+		"chillerlan/psr-7": "A PSR-7/PSR-17 HTTP message and factory implementation.",
+		"chillerlan/php-oauth": "A PSR-7 OAuth client/handler that also acts as PSR-18 HTTP client"
 	},
 	"autoload": {
 		"psr-4": {
-			"chillerlan\\LibraryTemplate\\": "src/"
+			"chillerlan\\HTTP\\Psr15\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"chillerlan\\LibraryTemplateTest\\": "tests/"
+			"chillerlan\\HTTPTest\\Psr15\\": "tests/"
 		}
 	},
 	"scripts": {
