@@ -43,15 +43,8 @@
 
     <nav class="phpdocumentor-topnav">
     <ul class="phpdocumentor-topnav__menu">
-                        <li class="phpdocumentor-topnav__menu-item -menu">
-                <a href="https://php-library-template.readthedocs.io">
-                    <span>
-                                                                        User Manual
-                    </span>
-                </a>
-            </li>
-                                <li class="phpdocumentor-topnav__menu-item -social">
-                <a href="https://github.com/chillerlan/php-library-template">
+                        <li class="phpdocumentor-topnav__menu-item -social">
+                <a href="https://github.com/chillerlan/psr-15-handlers">
                     <span>
                                                                         <i class="fab fa-github"></i>
                                                 
@@ -76,11 +69,11 @@
 </h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/chillerlan-librarytemplate.html" class="">LibraryTemplate</a>
+                <a href="namespaces/chillerlan-http.html" class="">HTTP</a>
                 
             </li>
                     <li>
-                <a href="namespaces/chillerlan-librarytemplatetest.html" class="-active">LibraryTemplateTest</a>
+                <a href="namespaces/chillerlan-httptest.html" class="">HTTPTest</a>
                 
             </li>
             </ul>
@@ -111,44 +104,121 @@
                                 <section>
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/chillerlan.html">chillerlan</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/chillerlan-http.html">HTTP</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/chillerlan-http-psr15.html">Psr15</a></li>
     </ul>
 
-    <article class="phpdocumentor-element -namespace">
-        <h2 class="phpdocumentor-content__title">LibraryTemplateTest</h2>
+    <article class="phpdocumentor-element -interface">
+        <h2 class="phpdocumentor-content__title">
+    PriorityMiddlewareInterface
+            <span class="phpdocumentor-element__extends">
+            extends
+                            <abbr title="\Psr\Http\Server\MiddlewareInterface">MiddlewareInterface</abbr>                    </span>
+                <div class="phpdocumentor-element__package">
+            in
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PriorityMiddlewareInterface.php"><a href="files/src-prioritymiddlewareinterface.html"><abbr title="src/PriorityMiddlewareInterface.php">PriorityMiddlewareInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
 
         
+
+
+
+
+
 <h3 id="toc">
     Table of Contents
-    <a href="namespaces/chillerlan-librarytemplatetest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
 
-    <h4 id="toc-classes">
-        Classes
-        <a href="namespaces/chillerlan-librarytemplatetest.html#toc-classes" class="headerlink"><i class="fas fa-link"></i></a>
+
+
+
+
+
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#method_getPriority">getPriority()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Gets the priority value</dd>
+
+    </dl>
+
+
+
+
+        
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPriority">
+        getPriority()
+        <a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#method_getPriority" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/chillerlan-LibraryTemplateTest-ExampleTest.html"><abbr title="\chillerlan\LibraryTemplateTest\ExampleTest">ExampleTest</abbr></a></dt>    </dl>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PriorityMiddlewareInterface.php"><a href="files/src-prioritymiddlewareinterface.html"><abbr title="src/PriorityMiddlewareInterface.php">PriorityMiddlewareInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
+    </aside>
 
+        <p class="phpdocumentor-summary">Gets the priority value</p>
 
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getPriority</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
 
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
 
+</article>
+            </section>
 
-
-        
-
-        
         <div class="phpdocumentor-modal" id="source-view">
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/PriorityMiddlewareInterface.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -247,10 +317,16 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                                    <li><a href="namespaces/chillerlan-librarytemplatetest.html#toc-classes">Classes</a></li>
-                                                                                                                    </ul>
+                    <li><a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#toc-constants">Constants</a></li>
+                    <li><a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#toc-methods">Methods</a></li>
+                </ul>
             </li>
-
+                            <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#method_getPriority">getPriority()</a></li>
+                                            </ul>
+                </li>
             
                     </ul>
     </section>
@@ -269,7 +345,7 @@
     </section>
 </section>
         </div>
-        <a href="namespaces/chillerlan-librarytemplatetest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/chillerlan-HTTP-Psr15-PriorityMiddlewareInterface.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
