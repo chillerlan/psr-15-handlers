@@ -20,7 +20,7 @@ A template/boilerplate for PHP libraries.
 [gh-action]: https://github.com/chillerlan/psr-15-handlers/actions/workflows/ci.yml?query=branch%3Amain
 [coverage-badge]: https://img.shields.io/codecov/c/github/chillerlan/psr-15-handlers.svg?logo=codecov&logoColor=fff
 [coverage]: https://codecov.io/github/chillerlan/psr-15-handlers
-[codacy-badge]: https://img.shields.io/codacy/grade/[...]]?logo=codacy&logoColor=fff
+[codacy-badge]: https://img.shields.io/codacy/grade/a32d0ee22ee3434d8bd11ec9a0db4e03?logo=codacy&logoColor=fff
 [codacy]: https://app.codacy.com/gh/chillerlan/psr-15-handlers/dashboard
 [downloads-badge]: https://img.shields.io/packagist/dt/chillerlan/psr-15-handlers.svg?logo=packagist&logoColor=fff
 [downloads]: https://packagist.org/packages/chillerlan/psr-15-handlers/stats
