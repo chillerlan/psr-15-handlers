@@ -46,6 +46,7 @@ class RecursiveDispatcherTest extends QueueRequestHandlerTest{
 		};
 
 		$dispatcher = new RecursiveDispatcher($handler);
+		/** @phan-suppress-next-line PhanTypeMismatchArgument */
 		$dispatcher->addStack(['foo']);
 	}
 
